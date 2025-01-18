@@ -1,0 +1,6 @@
+﻿Compilación iniciada a las 16:09...
+1>------ Operación Compilar iniciada: Proyecto: ejercicio3, configuración: Debug Any CPU ------
+1>Omitiendo analizadores para acelerar la compilación. Puede ejecutar los comandos "Build" o "Rebuild" para ejecutar los analizadores.
+1>ejercicio3 -> C:\Users\user\source\repos\ejercicio3\ejercicio3\bin\Debug\net8.0\ejercicio3.dll
+========== Compilación: 1 correcto, 0 erróneo, 0 actualizado, 0 omitido ==========
+========== Compilar completado a las 16:09 y tardó 00,472 segundos ==========
