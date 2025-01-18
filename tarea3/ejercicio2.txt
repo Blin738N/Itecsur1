@@ -1,6 +1,0 @@
-﻿Compilación iniciada a las 16:37...
-1>------ Operación Compilar iniciada: Proyecto: ejerc2, configuración: Debug Any CPU ------
-1>Omitiendo analizadores para acelerar la compilación. Puede ejecutar los comandos "Build" o "Rebuild" para ejecutar los analizadores.
-1>ejerc2 -> C:\Users\user\source\repos\ejerc2\ejerc2\bin\Debug\net8.0\ejerc2.dll
-========== Compilación: 1 correcto, 0 erróneo, 0 actualizado, 0 omitido ==========
-========== Compilar completado a las 16:37 y tardó 00,326 segundos ==========
