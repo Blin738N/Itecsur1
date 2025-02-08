@@ -1,0 +1,89 @@
+💻 Aplicación de Gestión de Citas Médicas
+
+📖 Descripción
+Esta aplicación ha sido desarrollada en **Python** con una interfaz llamativa para gestionar las citas de un centro médico. Permite a pacientes y personal médico agendar, visualizar y administrar citas de manera eficiente.
+
+🎯 Características
+🔐 Inicio de Sesión
+- Paciente: Solo puede ver sus citas y agendar nuevas.
+- Administrador/Recepcionista: Puede ver todas las citas, crear nuevas, cancelarlas y editarlas.
+
+🗓️ Gestión de Citas
+- Paciente:
+ - Agendar citas seleccionando un médico, una fecha y una hora disponible.
+ - Ver una lista de sus citas confirmadas.
+ - Cancelar una cita desde la lista.
+- Administrador:
+ - Ver todas las citas programadas, filtradas por fecha o médico.
+ - Agendar citas para pacientes.
+ - Editar o cancelar citas existentes.
+
+📅 Calendario Interactivo
+ - Los días con citas aparecen resaltados.
+ - Al seleccionar un día, se muestran las citas programadas para ese día.
+
+📢 Notificaciones
+ - Se envía una notificación recordatoria un día antes y una hora antes de la cita.
+
+📚 Persistencia de Datos
+ - Se utiliza **SQLite (mediante la biblioteca `sqlite3`)** para almacenar información de usuarios, médicos, horarios y citas.
+ - Esquema de base de datos:
+  - Usuarios: ID, Nombre, Tipo (Paciente o Administrador).
+  - Médicos: ID, Nombre, Especialidad.
+  - Citas: ID, UsuarioID, MédicoID, Fecha, Hora, Estado.
+
+✅ Validaciones
+ - No se pueden agendar citas en horarios ocupados.
+ - Los pacientes solo ven médicos disponibles en su especialidad requerida.
+
+✨ Extras
+ - Integración con **Google Calendar** (Opcional).
+ - Exportación de citas a **PDF** (Opcional).
+
+🌏 Requisitos Técnicos
+📚 Arquitectura
+ - Implementa **MVC (Model-View-Controller)** para la organización del código.
+ - Utiliza **Tkinter** para la interfaz gráfica.
+
+💡 Interfaz
+ - Diseño moderno con **Tkinter y estilos personalizados**.
+ - Incluye:
+  - Pantalla de inicio de sesión.
+  - Pantalla de calendario interactivo.
+  - Pantalla para crear/editar citas.
+  - Lista de citas con filtros.
+
+📚 Bibliotecas Utilizadas
+ - SQLite3**: Para persistencia local.
+ - Tkinter**: Para la interfaz visual.
+ - Datetime**: Para el manejo de fechas y horas.
+ - ReportLab**: Para exportación en PDF.
+
+🛠️ Instalación y Ejecución
+1. Clonar el repositorio:
+  
+   git clone https://github.com/Blin738N/gestion-citas-medicas.git
+   cd gestion-citas-medicas
+   
+2. Instalar dependencias:
+   
+   pip install tk sqlite3 reportlab
+   
+3. Ejecutar la aplicación:
+   
+   python main.py
+   
+🔓 Credenciales de Prueba
+ - Administrador:
+  - Usuario: admin
+  - Contraseña: admin123
+ - Usuarios:
+  - Nombre: Juan
+  - Contraseña: Juan123
+
+👤 Autor
+ - Nombre: Roberto Constante
+ - Carrera: Desarrollo de Software (Tercer Semestre)
+ - GitHub: [Blin738N](https://github.com/Blin738N)
+
+
