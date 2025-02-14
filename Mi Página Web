@@ -1,0 +1,54 @@
+Creación de una Página Web Educativa para Aprender Programación
+
+Descripción del Proyecto
+Este proyecto tiene como objetivo desarrollar una página web educativa que facilite el aprendizaje de conceptos fundamentales de programación, incluyendo estructura, programación orientada a objetos (POO) y fundamentos de programación estructurada.
+
+Objetivos
+- 🎨 Diseñar y desarrollar una página web educativa funcional y estéticamente atractiva.
+- 🔗 Implementar un menú de navegación informativo con enlaces a diferentes secciones relacionadas con programación.
+- 📲 Asegurar que la página sea completamente responsive y se adapte a dispositivos móviles.
+- 💻 Utilizar tecnologías como WordPress, HTML5, CSS3, JavaScript o PHP.
+- 🌐 Subir la página al servidor gratuito InfinityFree y garantizar su correcto funcionamiento.
+
+Requisitos Funcionales
+Estructura de la Página Web
+- Página Principal (Home): Introducción a la programación y explicación de su importancia.
+- Sección de Programación Estructurada:
+  - 📚 Explicación de conceptos básicos (variables, condicionales, bucles, funciones).
+  - 📝 Ejemplo práctico interactivo (puede ser un bloque de código embebido o un simulador simple).
+- Sección de Programación Orientada a Objetos (POO):
+  - 📊 Definición y conceptos clave (clases, objetos, herencia, encapsulación, polimorfismo).
+  - 📚 Ejemplo práctico con un diagrama UML y un bloque de código.
+- Sección de Recursos:
+  - 📚 Enlaces a documentación, tutoriales y videos relevantes.
+- Formulario de Contacto:
+  - 📧 Para recibir preguntas o sugerencias de los usuarios.
+- Menú de Navegación:
+  - 🔍 Accesible desde todas las páginas, con enlaces a las secciones.
+
+Diseño Adaptativo (Responsive Design)
+- 💻 Utiliza técnicas de diseño adaptativo para que la página sea accesible desde computadoras, tabletas y teléfonos móviles.
+- 📝 Asegúrate de probar la compatibilidad en diferentes resoluciones.
+
+Alojamiento en InfinityFree
+- 🌐 Configura un dominio gratuito y sube el proyecto al servidor InfinityFree.
+- 💻 Verifica que todas las funcionalidades sean accesibles desde el dominio configurado.
+
+Uso de Tecnologías
+- 🎨 Si utilizas WordPress, implementa un tema adecuado y personalízalo para cumplir con los requisitos.
+- 💻 Si prefieres HTML5, CSS3, y JavaScript, estructura los archivos y asegúrate de que el código sea limpio y comentado.
+
+Extras (Opcionales)
+- 🎯 Implementa un pequeño quiz interactivo para que los usuarios prueben sus conocimientos.
+- 📚 Añade un blog para publicar artículos relacionados con la programación.
+
+Ejecución del Proyecto
+1. 📝 Arrastrar la carpeta del proyecto `poo.html`.
+2. 🗒️ Clic derecho y seleccionar "Abrir con la extensión With Live Server".
+3. 🎨 Verifica que la página se visualiza correctamente en el navegador.
+
+Autor
+Nombre: Roberto Constante  
+GitHub: [Blin738N](https://github.com/Blin738N)  
+Semestre: Tercer semestre de Desarrollo de Software
+
