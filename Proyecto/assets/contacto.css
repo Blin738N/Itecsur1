@@ -1,0 +1,97 @@
+/* Estilos para el formulario */
+form {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+/* Grupos de campos */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #2e7d32; /* Verde oscuro */
+}
+
+/* Campos de texto y textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c8e6c9; /* Borde verde claro */
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333; /* Texto oscuro */
+    background-color: #e8f5e9; /* Fondo verde claro */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #2e7d32; /* Borde verde oscuro al enfocar */
+    outline: none;
+}
+
+/* Textarea */
+textarea {
+    resize: vertical; /* Permite redimensionar verticalmente */
+    min-height: 120px;
+}
+
+/* Botón de enviar */
+button[type="submit"] {
+    background-color: #388e3c; /* Verde medio */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #2e7d32; /* Verde oscuro al pasar el mouse */
+}
+
+/* Media Queries para móviles */
+@media (max-width: 600px) {
+    form {
+        padding: 15px; /* Menos padding en móviles */
+        margin: 10px auto; /* Menos margen en móviles */
+    }
+
+    .form-group {
+        margin-bottom: 15px; /* Menos espacio entre campos */
+    }
+
+    label {
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 8px; /* Menos padding en móviles */
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+    }
+
+    textarea {
+        min-height: 100px; /* Altura mínima reducida */
+    }
+
+    button[type="submit"] {
+        padding: 10px 20px; /* Menos padding en móviles */
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+    }
+}

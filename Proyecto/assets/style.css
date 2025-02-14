@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    color: #333; /* Color de texto oscuro */
+}
+
+/* Encabezado */
+header {
+    background-color: #2e7d32; /* Verde oscuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2e7d32; /* Verde oscuro */
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+h2 a {
+    color: inherit; /* Hereda el color del h2 */
+    text-decoration: none;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+}
+
+p {
+    color: #555; /* Texto gris oscuro */
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Pie de página */
+footer {
+    background-color: #2e7d32; /* Verde oscuro */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Media Queries para móviles */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 28px; /* Tamaño de fuente más pequeño */
+    }
+
+    main {
+        padding: 10px; /* Menos padding en móviles */
+    }
+
+    section {
+        padding: 15px; /* Menos padding en móviles */
+    }
+
+    h2 {
+        font-size: 20px; /* Tamaño de fuente más pequeño */
+    }
+
+    p {
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+    }
+}

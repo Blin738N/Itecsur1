@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programación Estructurada</title>
+    <link rel="stylesheet" href="/assets/programacion-estructurada.css">
+</head>
+<body>
+    <header>
+        <h1>Programación Estructurada</h1>
+        <nav>
+            <ul>
+                <li><a href="/pages/index.html">Inicio</a></li>
+                <li><a href="/pages/poo.html">POO</a></li>
+                <li><a href="/pages/contacto.html">Contacto</a></li>
+                <li><a href="/pages/recurso.html">Recurso</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="programacion-estructurada">
+            <h2 id="programacion-estructurada">¿Qué es la Programación Estructurada?</h2>
+            <p>La programación estructurada es un paradigma de programación que se basa en el uso de estructuras de control claras y bien definidas, como secuencias, selecciones (condicionales) y repeticiones (bucles). Este enfoque mejora la legibilidad, el mantenimiento y la eficiencia del código.</p>
+        </section>
+
+        <section aria-labelledby="variables-tipos-datos">
+            <h2 id="variables-tipos-datos">Variables y Tipos de Datos</h2>
+            <p>Las variables son espacios de memoria que almacenan valores que pueden cambiar durante la ejecución de un programa. Cada variable tiene un tipo de dato que define el tipo de información que puede almacenar, como números enteros, decimales, cadenas de texto, entre otros.</p>
+            <pre><code>int edad = 25; // Variable de tipo entero
+double precio = 19.99; // Variable de tipo decimal
+char letra = 'A'; // Variable de tipo carácter
+String nombre = "Juan"; // Variable de tipo cadena de texto</code></pre>
+            <p>En los ejemplos anteriores, se declaran variables de diferentes tipos de datos: <code>int</code> (entero), <code>double</code> (decimal), <code>char</code> (carácter) y <code>String</code> (cadena de texto).</p>
+        </section>
+
+        <section aria-labelledby="estructuras-control">
+            <h2 id="estructuras-control">Estructuras de Control</h2>
+            <p>Las estructuras de control permiten definir el flujo de ejecución de un programa. Las más comunes son:</p>
+            <ul>
+                <li><strong>Secuencias</strong>: Ejecución lineal de instrucciones.</li>
+                <li><strong>Condicionales</strong>: Permiten tomar decisiones basadas en condiciones.</li>
+                <li><strong>Bucles</strong>: Repiten un bloque de código mientras se cumpla una condición.</li>
+            </ul>
+
+            <h3>Condicionales</h3>
+            <p>Un condicional permite ejecutar un bloque de código si se cumple una condición. Por ejemplo:</p>
+            <pre><code>int edad = 18;
+if (edad >= 18) {
+    System.out.println("Eres mayor de edad.");
+} else {
+    System.out.println("Eres menor de edad.");
+}</code></pre>
+
+            <h3>Bucles</h3>
+            <p>Un bucle permite repetir un bloque de código mientras se cumpla una condición. Por ejemplo:</p>
+            <pre><code>for (int i = 1; i <= 5; i++) {
+    System.out.println("Iteración: " + i);
+}</code></pre>
+            <p>Este bucle imprime los números del 1 al 5.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Aprende Programación. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

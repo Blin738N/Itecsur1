@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programación Orientada a Objetos (POO)</title>
+    <link rel="stylesheet" href="/assets/poo.css">
+</head>
+<body>
+    <header>
+        <h1>Programación Orientada a Objetos (POO)</h1>
+        <nav>
+            <ul>
+                <li><a href="/pages/index.html">Inicio</a></li>
+                <li><a href="/pages/programacion-estructurada.html">Programación Estructurada</a></li>
+                <li><a href="/pages/contacto.html">Contacto</a></li>
+                <li><a href="/pages/recurso.html">Recurso</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="poo">
+            <h2 id="poo">¿Qué es la POO?</h2>
+            <p>La Programación Orientada a Objetos (POO) es un paradigma de programación que organiza el software en torno a "objetos" que contienen datos y comportamientos. Esto facilita la reutilización del código, la modularidad y el mantenimiento.</p>
+
+            <article aria-labelledby="clases-objetos">
+                <h3 id="clases-objetos">Clases y Objetos</h3>
+                <p>Una <strong>clase</strong> es una plantilla para crear objetos. Define propiedades (atributos) y comportamientos (métodos) que los objetos de esa clase tendrán. Un <strong>objeto</strong> es una instancia de una clase.</p>
+                <pre><code>class Persona {
+    String nombre;
+    int edad;
+
+    // Constructor
+    public Persona(String nombre, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
+    // Método
+    public void saludar() {
+        System.out.println("Hola, mi nombre es " + this.nombre);
+    }
+}</code></pre>
+                <p>En el ejemplo anterior, se define una clase <code>Persona</code> con dos atributos (<code>nombre</code> y <code>edad</code>), un constructor para inicializar los atributos y un método <code>saludar</code>.</p>
+            </article>
+
+            <article aria-labelledby="pilares-poo">
+                <h3 id="pilares-poo">Pilares de la POO</h3>
+                <p>La POO se basa en cuatro pilares fundamentales:</p>
+                <ul>
+                    <li><strong>Abstracción</strong>: Simplificar objetos complejos modelando solo los aspectos relevantes.</li>
+                    <li><strong>Encapsulamiento</strong>: Ocultar los detalles internos de un objeto y exponer solo una interfaz.</li>
+                    <li><strong>Herencia</strong>: Crear nuevas clases a partir de clases existentes, reutilizando código.</li>
+                    <li><strong>Polimorfismo</strong>: Permitir que objetos de diferentes clases respondan al mismo mensaje de manera diferente.</li>
+                </ul>
+            </article>
+
+            <article aria-labelledby="ejemplo-herencia">
+                <h3 id="ejemplo-herencia">Ejemplo de Herencia</h3>
+                <p>La herencia permite crear una nueva clase a partir de una clase existente. Por ejemplo:</p>
+                <pre><code>class Estudiante extends Persona {
+    String carrera;
+
+    // Constructor
+    public Estudiante(String nombre, int edad, String carrera) {
+        super(nombre, edad); // Llama al constructor de la clase base
+        this.carrera = carrera;
+    }
+
+    // Método
+    public void estudiar() {
+        System.out.println(this.nombre + " está estudiando " + this.carrera);
+    }
+}</code></pre>
+                <p>En este ejemplo, la clase <code>Estudiante</code> hereda de la clase <code>Persona</code> y agrega un nuevo atributo (<code>carrera</code>) y un nuevo método (<code>estudiar</code>).</p>
+            </article>
+
+            <article aria-labelledby="ventajas-poo">
+                <h3 id="ventajas-poo">Ventajas de la POO</h3>
+                <ul>
+                    <li><strong>Reutilización de código</strong>: Las clases y objetos permiten reutilizar código de manera eficiente.</li>
+                    <li><strong>Modularidad</strong>: El código se organiza en módulos independientes y fáciles de mantener.</li>
+                    <li><strong>Escalabilidad</strong>: Es más fácil extender y modificar el código sin afectar otras partes del sistema.</li>
+                    <li><strong>Mantenimiento</strong>: La estructura de la POO facilita la detección y corrección de errores.</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Aprende Programación. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

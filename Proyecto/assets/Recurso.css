@@ -1,0 +1,139 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    color: #333; /* Color de texto oscuro */
+}
+
+/* Encabezado */
+header {
+    background-color: #2e7d32; /* Verde oscuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2e7d32; /* Verde oscuro */
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #2e7d32; /* Verde oscuro */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    background-color: #2e7d32; /* Verde oscuro */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Media Queries para móviles */
+@media (max-width: 600px) {
+    /* Encabezado */
+    header {
+        padding: 15px; /* Menos padding en móviles */
+    }
+
+    header h1 {
+        font-size: 24px; /* Tamaño de fuente más pequeño */
+    }
+
+    nav ul li {
+        display: block; /* Cambia a bloque para apilar los elementos */
+        margin: 10px 0; /* Espaciado entre elementos */
+    }
+
+    /* Contenido principal */
+    main {
+        padding: 10px; /* Menos padding en móviles */
+    }
+
+    section {
+        padding: 15px; /* Menos padding en móviles */
+        margin-bottom: 15px; /* Menos margen inferior */
+    }
+
+    h2 {
+        font-size: 20px; /* Tamaño de fuente más pequeño */
+        margin-bottom: 10px; /* Menos margen inferior */
+    }
+
+    p {
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+        line-height: 1.6; /* Menor interlineado */
+    }
+
+    ul li {
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+    }
+
+    /* Pie de página */
+    footer {
+        padding: 8px; /* Menos padding en móviles */
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+    }
+}

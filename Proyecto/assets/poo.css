@@ -1,0 +1,187 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    color: #333; /* Color de texto oscuro */
+}
+
+/* Encabezado */
+header {
+    background-color: #2e7d32; /* Verde oscuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700; /* Texto más grueso */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+nav ul li a:hover {
+    color: #c8e6c9; /* Verde claro al pasar el mouse */
+    text-decoration: underline;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px; /* Bordes más redondeados */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efecto de elevación al pasar el mouse */
+}
+
+section:hover {
+    transform: translateY(-5px); /* Elevación al pasar el mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Sombra más intensa */
+}
+
+h2 {
+    color: #2e7d32; /* Verde oscuro */
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 700; /* Texto más grueso */
+}
+
+h3 {
+    color: #388e3c; /* Verde medio */
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700; /* Texto más grueso */
+}
+
+p {
+    color: #555; /* Texto gris oscuro */
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Bloque de código */
+pre {
+    background-color: #e8f5e9; /* Fondo verde claro */
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #c8e6c9; /* Borde verde claro */
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+code {
+    color: #1b5e20; /* Verde oscuro para el código */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #2e7d32; /* Verde oscuro */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave en la parte superior */
+}
+
+/* Media Queries para móviles */
+@media (max-width: 600px) {
+    /* Encabezado */
+    header {
+        padding: 15px; /* Menos padding en móviles */
+    }
+
+    header h1 {
+        font-size: 24px; /* Tamaño de fuente más pequeño */
+    }
+
+    nav ul li {
+        display: block; /* Cambia a bloque para apilar los elementos */
+        margin: 10px 0; /* Espaciado entre elementos */
+    }
+
+    /* Contenido principal */
+    main {
+        padding: 10px; /* Menos padding en móviles */
+    }
+
+    section {
+        padding: 15px; /* Menos padding en móviles */
+        margin-bottom: 15px; /* Menos margen inferior */
+    }
+
+    h2 {
+        font-size: 20px; /* Tamaño de fuente más pequeño */
+        margin-bottom: 10px; /* Menos margen inferior */
+    }
+
+    h3 {
+        font-size: 18px; /* Tamaño de fuente más pequeño */
+        margin-top: 15px; /* Menos margen superior */
+        margin-bottom: 8px; /* Menos margen inferior */
+    }
+
+    p {
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+        line-height: 1.6; /* Menor interlineado */
+    }
+
+    ul li {
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+    }
+
+    /* Bloque de código */
+    pre {
+        padding: 10px; /* Menos padding en móviles */
+        margin: 15px 0; /* Menos margen en móviles */
+    }
+
+    code {
+        font-size: 12px; /* Tamaño de fuente más pequeño */
+    }
+
+    /* Pie de página */
+    footer {
+        padding: 10px; /* Menos padding en móviles */
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+    }
+}
