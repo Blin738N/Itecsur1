@@ -1,0 +1,8 @@
+C:\Users\user\Desktop\Deber_PEV\POO\GestorCalificaciones\GestorCalificaciones\obj\Debug\net8.0-windows\GestorCalificaciones.MainForm.resources
+C:\Users\user\Desktop\Deber_PEV\POO\GestorCalificaciones\GestorCalificaciones\obj\Debug\net8.0-windows\GestorCalificaciones.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Deber_PEV\POO\GestorCalificaciones\GestorCalificaciones\obj\Debug\net8.0-windows\GestorCalificaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Deber_PEV\POO\GestorCalificaciones\GestorCalificaciones\obj\Debug\net8.0-windows\GestorCalificaciones.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Deber_PEV\POO\GestorCalificaciones\GestorCalificaciones\obj\Debug\net8.0-windows\GestorCalificaciones.AssemblyInfo.cs
+C:\Users\user\Desktop\Deber_PEV\POO\GestorCalificaciones\GestorCalificaciones\obj\Debug\net8.0-windows\GestorCalificaciones.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Deber_PEV\POO\GestorCalificaciones\GestorCalificaciones\obj\Debug\net8.0-windows\GestorCalificaciones.Form1Base.resources
+C:\Users\user\Desktop\Deber_PEV\POO\GestorCalificaciones\GestorCalificaciones\obj\Debug\net8.0-windows\GestorCalificaciones.sourcelink.json
